@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+
+
+  <node name="gui" pkg="gui_code" type="test.py" output="screen"/>
+  <node name="gui_sub" pkg="gui_code" type="sub.py" output="screen"/>
+
+</launch>
+

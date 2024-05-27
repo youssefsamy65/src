@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+
+
+
+
+
+  <master auto="start"/>
+
+  <!-- Map server -->
+
+
+  <!-- AMCL -->
+  <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+ <!-- AMCL
+    <include file="$(find als_ros)/launch/robot_tf.launch"/>
+       <include file="$(find als_ros)/launch/mcl.launch"/>
+  <include file="$(find robot_navigation)/launch/move_base.launch"/>
+  <include file="$(find robot_navigation)/launch/amcl.launch"/>
+    <include file="$(find robot_navigation)/launch/move_base.launch"/>
+	
+  <include file="$(find my_laser_scan_processor)/launch/laser_scan_processor.launch"/>
+-->
+       <include file="$(find als_ros)/launch/mcl.launch"/>
+  <include file="$(find robot_navigation)/launch/move_base.launch"/>
+
+
+
+
+</launch>

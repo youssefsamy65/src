@@ -1,0 +1,6 @@
+<launch>
+    <!-- Launch the laser scan processor node -->
+    <node name="check_obstacle" pkg="my_laser_scan_processor" type="laser_scan_processor" output="screen">
+    </node>
+</launch>
+
